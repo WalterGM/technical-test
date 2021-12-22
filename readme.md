@@ -55,7 +55,7 @@
 
 ##Data Modeling Diagram
 
-![](../../Pictures/starSchema2.jpg)
+![](starSchema2.png)
 
 ## Flow of the process 
 The process takes the job file as a source and is used as a foundation to create the dimension and
@@ -63,7 +63,7 @@ the fact tables (except the time dimension that has a different source). The pip
 and create one by one the dimensions needed by the data modeling, once all the dimensions have been created
 the **jobFactTable** creates the fact table using the dimensions previously created and the source file.
 
-![](../../Pictures/flow.jpg)
+![](flow.jpg)
 
 ##Folder Structure
  The process contains the following folder taxonomy
